@@ -28,7 +28,7 @@ public class BaseClass {
 			driver = new ChromeDriver();
 		}
 		if(browserName.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "D:\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		driver.manage().window().maximize();
